@@ -36,9 +36,9 @@ DescribeDifference2 <- function(a, b) {
   lengthA <- length(a)
   lengthB <- length(b)
   if(lengthA > lengthB) {
-    return(cat(a, "is longer."))
+    cat(a, "is longer.")
   } else {
-    return(cat(b, "is longer."))
+    cat(b, "is longer.")
   }
 }
 difference2 <- DescribeDifference2(c(1, 2, 3), c(2))
